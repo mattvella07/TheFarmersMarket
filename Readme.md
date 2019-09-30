@@ -30,6 +30,10 @@ The following specials are currently available:
 - This app runs in a Docker container and can be built and ran using the command `make all`
 - That will build the image from the dockerfile in the root directory of this project, and run it in a new container.
 
-## Using
+### Testing
+
+- All tests are located in the `market` folder and can be run using `go test` from within that folder.
+
+### Using
 
 - This is a CLI program that the user can interact with by selecting the number of the menu item they want.  The prompts and menu choices will guide the user through add items to the basket, removing items from the basket, viewing the current basket, and checking out.
